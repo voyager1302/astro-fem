@@ -1,0 +1,31 @@
+{
+	"name": "astro-frontend-masters",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev --host 0.0.0.0 --port 3000",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/react": "^3.1.0",
+		"@astrojs/renderer-react": "^0.5.0",
+		"@astrojs/renderer-solid": "^0.4.2",
+		"@astrojs/solid-js": "^4.0.1",
+		"@nanostores/react": "^0.7.2",
+		"@nanostores/solid": "^0.4.2",
+		"astro": "^4.5.12",
+		"nanostores": "^0.10.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"solid-js": "^1.8.16"
+	},
+	"devDependencies": {
+		"@types/markdown-it": "^12.2.3",
+		"@types/react": "^18.2.73",
+		"@types/react-dom": "^18.2.23",
+		"@types/sanitize-html": "^2.9.0"
+	}
+}
